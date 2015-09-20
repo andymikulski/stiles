@@ -1,0 +1,23 @@
+{
+  "name": "stiles",
+  "main": "stiles.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/andymikulski/stiles",
+  "authors": [
+    "Andy Mikulski <andy.mikulski@gmail.com>"
+  ],
+  "description": "Stiles CSS injector",
+  "keywords": [
+    "stiles",
+    "css",
+    "injector"
+  ],
+  "license": "GNU GPL2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
