@@ -18,10 +18,6 @@
      * @param {Object} styles? Hashmap of CSS definitions
      */
     function Stiles(styles) {
-
-      // Pollute the globe with block, none, etc variables
-      polluteGlobal();
-
       // if we actually have a style map,
       // we'll complete the Stiles.Stilinski formula
       if (styles) {
@@ -159,31 +155,7 @@
       }
     }
 
-    /**
-     * Pollutes the global namespace with common CSS keywords,
-     * in order to aid with pseudo-CSS writing.
-     *
-     * This probably should be made optional.
-     *
-     * @return {void}
-     */
-    function polluteGlobal() {
-      // We cant use bracket notation to define these properties,
-      // so we have to use dot notation..
-      window.block = 'block';
-      window.absolute = 'absolute';
-      window.fixed = 'fixed';
-      window.none = 'none';
-      window.hidden = 'hidden';
-      window.visible = 'visible';
-      //..yeah..
-    }
-
-
     return Stiles;
   })(window.Stiles || {});
 
-  // Instancing a blank Stiles here still pollutes the window,
-  // so any psuedo-CSS won't error out if they're using the css keyword vars
-  new Stiles();
 })(window, document);
