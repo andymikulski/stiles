@@ -3,7 +3,7 @@
 
 Hashmap-based CSS injector. Useful when you need a little bit of CSS on the page for your JS to look sexy, but don't want to (or can't) edit existing CSS files.
 
-![Stiles Stilinski](http://i.imgur.com/4WHSMrt.jpg)
+![Stiles Stilinski](stiles.jpg)
 
 ## Usage
 
@@ -13,7 +13,7 @@ Hashmap-based CSS injector. Useful when you need a little bit of CSS on the page
 
 - I like to copy `stiles.min.js` right in the top of the JS file that needs the CSS lovin', like so:
 
-![Just remember to include the banner!](http://i.imgur.com/cbXLyUM.png)
+![Just remember to include the banner!](ss.png)
 
 
 
