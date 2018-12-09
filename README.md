@@ -1,9 +1,8 @@
 # Stiles
 ## CSS Injector
 
-Hashmap-based CSS injector. Useful when you need a little bit of CSS on the page for your JS to look sexy, but don't want to (or can't) edit existing CSS files.
+Hashmap-based CSS injector. Useful when you need a little bit of CSS on the page, but don't want to (or can't) edit existing CSS files.
 
-![Stiles Stilinski](img/stiles.jpg)
 
 ## Usage
 
